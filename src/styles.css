@@ -17,32 +17,51 @@ header {
     background-repeat: no-repeat;
     color: white;
     text-align: center;
+    padding: 20px 20px;
 }
 
 header h1 {
     font-weight: 700;
     font-size: 96px;
     line-height: 1.5;
+    margin: 0;
 }
 header h2 {
     font-weight: 400;
     font-size: 40px;
     line-height: 1.5;
     margin-bottom: 20px;
+    margin: 0;
 }
 header h3 {
     font-weight: 900;
     font-size: 24px;
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 0;
     letter-spacing: 5px;
+
 }
 header a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ff6f61;
-    color: white;
+    background-color: white;
+    color: rgb(35, 34, 34);
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    text-transform: uppercase;
+}
+@media (max-width: 900px) {
+    header {
+        padding: 48px;
+    }
+    header h1 {
+        font-size: 48px;
+    }
+    header h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 12px;
+    }
 }
