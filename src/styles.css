@@ -1,6 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}   
+
 header {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/mountain.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/shypit.png");
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+    text-align: center;
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 1.5;
+}
+header h2 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+header h3 {
+    font-weight: 900;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+}
+header a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
 }
