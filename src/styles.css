@@ -1,17 +1,14 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: "Poppins", sans-serif;
     background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-
 }
 .container {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 20px;
-
 }   
+.text-center {
+    text-align: center;
+}
 
 .grid {
     display: grid;
@@ -41,45 +38,59 @@ body {
     border-radius: 5px;
  }
 
+ .card {
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ }
+
+ .card-body {
+    padding: 30px;
+ }
+
+
  header {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/shypit.png");
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
     text-align: center;
-    padding: 20px 20px;
+    padding: 200px 0;
 }
 
 header h1 {
     font-weight: 700;
     font-size: 96px;
-    line-height: 1.5;
-    margin: 0;
+    line-height: 1;
+    margin: 30px 0;
 }
 header h2 {
     font-weight: 400;
     font-size: 40px;
     line-height: 1.5;
-    margin-bottom: 20px;
     margin: 0;
 }
 header h3 {
     font-weight: 900;
     font-size: 24px;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
     letter-spacing: 5px;
 
 }
 header a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: white;
-    color: rgb(35, 34, 34);
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    text-transform: uppercase;
+    font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: #272044;
+  padding: 16px 32px;
+  margin-top: 32px;
+  display: inline-block;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: white;
 }
 
 main {
@@ -88,7 +99,7 @@ main {
 main h2 {
     font-weight: 700;
     font-size: 16px;
-    margin-top: 0;
+    margin: 0;
     line-height: 1.5;
     letter-spacing: 5px;
     color: #000;
@@ -99,18 +110,47 @@ main h2 {
 main h3 {
     font-weight: 700;
     font-size: 40px;
-    color: #000;
+    color: #272044;
     line-height: 1.5;
     margin: 0;
 
+}
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  margin: 0;
+  line-height: 1;
+  color: #272044;
 }
 main p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: #333;
+    color: #272044;
+    opacity: 0.7;
 }
-
+ 
+.btn {
+    display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #462cb3;
+  text-decoration: none;
+}   
 .img-responsive {
     max-width: 100%;
     height: auto;
