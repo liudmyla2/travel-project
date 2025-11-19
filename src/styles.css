@@ -20,17 +20,28 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 32px;
 }
+
+.grid-3-columns {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
 .grid-footer {
     grid-template-columns: 1fr 2fr 2fr;
     gap: 64px;
 }
  section {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 100px;
  }
 
-header {
+ section .secondary {
+    background-color: #c8c5c5;
+    padding: 20px;
+    border-radius: 5px;
+ }
+
+ header {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/shypit.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -106,6 +117,11 @@ main p {
     display: block;
     margin: 0 auto;
 }
+
+.secondary h2, .secondary h3 {
+    text-align: center;
+}
+
 footer {
     color: white;
     background-color: rgb(35, 34, 34);
