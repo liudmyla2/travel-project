@@ -15,12 +15,19 @@ body {
 
 .grid {
     display: grid;
+}
+.grid-2-columns {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+}
+.grid-footer {
     grid-template-columns: 1fr 2fr 2fr;
     gap: 64px;
 }
  section {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 100px;
  }
 
 header {
@@ -64,6 +71,41 @@ header a {
     text-transform: uppercase;
 }
 
+main {
+    background-color: white;
+}
+main h2 {
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 0;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    color: #000;
+    opacity: 0.3;
+    text-transform: uppercase;
+
+}
+main h3 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #000;
+    line-height: 1.5;
+    margin: 0;
+
+}
+main p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 footer {
     color: white;
     background-color: rgb(35, 34, 34);
@@ -111,5 +153,13 @@ footer a {
     }
     h3 {
         font-size: 12px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+    section {
+        padding: 20px;
     }
 }
