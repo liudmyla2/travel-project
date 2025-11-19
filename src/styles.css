@@ -178,6 +178,11 @@ main p {
   text-align: center;
 }
 
+.gallery img, .gallery .img-responsive {
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
 footer {
   color: white;
   background-color: rgb(35, 34, 34);
