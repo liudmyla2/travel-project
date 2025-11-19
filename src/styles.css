@@ -79,7 +79,7 @@ header h3 {
 
 }
 header a {
-    font-weight: 700;
+font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
   text-align: center;
@@ -156,6 +156,7 @@ main p {
     height: auto;
     display: block;
     margin: 0 auto;
+    aspect-ratio: 16 / 9;
 }
 
 .secondary h2, .secondary h3 {
