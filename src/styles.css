@@ -1,85 +1,94 @@
 body {
-    font-family: "Poppins", sans-serif;
-    background-color: #f4f4f4;
+  font-family: "Poppins", sans-serif;
+  background: #272044;
 }
 .container {
-    max-width: 1400px;
-    margin: 0 auto;
-}   
+  max-width: 1400px;
+  margin: 0 auto;
+}
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .grid {
-    display: grid;
+  display: grid;
 }
 .grid-2-columns {
-    grid-template-columns: 1fr 1fr;
-    gap: 32px;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
 }
 
 .grid-3-columns {
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
 }
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
 .grid-footer {
-    grid-template-columns: 1fr 2fr 2fr;
-    gap: 64px;
+  grid-template-columns: 1fr 2fr 2fr;
+  gap: 64px;
 }
- section {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 100px;
- }
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+}
 
- section .secondary {
-    background-color: #c8c5c5;
-    padding: 20px;
-    border-radius: 5px;
- }
+.secondary {
+  background-color: #f8f8f8;
+  padding: 60px;
+  border-radius: 5px;
+}
 
- .card {
-    background: white;
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
- }
+.card {
+  background: white;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 30px 0;
+}
 
- .card-body {
-    padding: 30px;
- }
+.card-header.grid {
+  grid-gap: 0;
+}
 
+.card-body {
+  padding: 30px;
+}
 
- header {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/shypit.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-    text-align: center;
-    padding: 200px 0;
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/shypit.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
 }
 
 header h1 {
-    font-weight: 700;
-    font-size: 96px;
-    line-height: 1;
-    margin: 30px 0;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1;
+  margin: 30px 0;
 }
 header h2 {
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 1.5;
-    margin: 0;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
 }
 header h3 {
-    font-weight: 900;
-    font-size: 24px;
-    margin: 0;
-    letter-spacing: 5px;
-
+  font-weight: 900;
+  font-size: 24px;
+  margin: 0;
+  letter-spacing: 5px;
 }
 header a {
-font-weight: 700;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
   text-align: center;
@@ -94,26 +103,24 @@ font-weight: 700;
 }
 
 main {
-    background-color: white;
+  background-color: white;
 }
 main h2 {
-    font-weight: 700;
-    font-size: 16px;
-    margin: 0;
-    line-height: 1.5;
-    letter-spacing: 5px;
-    color: #000;
-    opacity: 0.3;
-    text-transform: uppercase;
-
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  color: #000;
+  opacity: 0.3;
+  text-transform: uppercase;
 }
 main h3 {
-    font-weight: 700;
-    font-size: 40px;
-    color: #272044;
-    line-height: 1.5;
-    margin: 0;
-
+  font-weight: 700;
+  font-size: 40px;
+  color: #272044;
+  line-height: 1.5;
+  margin: 0;
 }
 main h4 {
   font-weight: 700;
@@ -131,15 +138,15 @@ main h5 {
   color: #272044;
 }
 main p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #272044;
-    opacity: 0.7;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #272044;
+  opacity: 0.7;
 }
- 
+
 .btn {
-    display: block;
+  display: block;
   color: white;
   font-weight: 700;
   font-size: 14px;
@@ -150,73 +157,85 @@ main p {
   padding: 16px;
   background-color: #462cb3;
   text-decoration: none;
-}   
+}
 .img-responsive {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    aspect-ratio: 16 / 9;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  aspect-ratio: 16 / 9;
+}
+.card-responsive {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  aspect-ratio: 1/1;
 }
 
-.secondary h2, .secondary h3 {
-    text-align: center;
+.secondary h2,
+.secondary h3 {
+  text-align: center;
 }
 
 footer {
-    color: white;
-    background-color: rgb(35, 34, 34);
+  color: white;
+  background-color: rgb(35, 34, 34);
 }
 
 footer h3 {
-    font-weight: 700;
-    font-size: 20px;
-    margin-top: 0;
-    line-height: 30px;
-
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 0;
+  line-height: 30px;
 }
 
 footer p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 footer ul {
-    padding: 0;
+  padding: 0;
 }
 
 footer li {
-   list-style: none;
-   margin: 0;
-    padding: 0;
-
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 footer a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 @media (max-width: 900px) {
-    header {
-        padding: 48px;
-    }
-    header h1 {
-        font-size: 48px;
-    }
-    header h2 {
-        font-size: 24px;
-    }
-    h3 {
-        font-size: 12px;
-    }
+  header {
+    padding: 48px;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 12px;
+  }
 
-    .grid {
-        grid-template-columns: 1fr;
-        gap: 32px;
-    }
-    section {
-        padding: 20px;
-    }
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  section {
+    padding: 20px;
+  }
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
+  }
 }
