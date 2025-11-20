@@ -77,11 +77,11 @@ header {
 .hero-nav {
   position: absolute;
   top: 20px;
-  left: 50%;
-  transform: translateX(-50%);
   display: flex;
   gap: 40px;
   z-index: 10;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .hero-nav a {
@@ -225,8 +225,8 @@ main p {
 footer {
   color: white;
   background-image: linear-gradient(
-      rgba(28, 62, 49, 0.9),
-      rgba(28, 62, 49, 0.9)
+      rgba(28, 62, 49, 0.8),
+      rgba(28, 62, 49, 0.8)
     ),
     url("/images/footer-img.png");
   background-repeat: no-repeat;
@@ -276,6 +276,11 @@ footer a {
 @media (max-width: 900px) {
   header {
     padding: 48px;
+  }
+  .hero-nav {
+    top: 10px;
+    gap: 15px; 
+    font-size: 14px;
   }
   header h1 {
     font-size: 48px;
