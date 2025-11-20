@@ -191,7 +191,13 @@ main p {
 
 footer {
   color: white;
-  background-color: rgb(35, 34, 34);
+  background-image: linear-gradient(
+      rgba(28, 62, 49, 0.9),
+      rgba(28, 62, 49, 0.9)
+    ),
+    url("/images/footer-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 footer h3 {
