@@ -282,6 +282,9 @@ footer a {
     gap: 15px; 
     font-size: 14px;
   }
+  .hero-nav a {
+    white-space: nowrap;
+  }
   header h1 {
     font-size: 48px;
   }
@@ -305,5 +308,100 @@ footer a {
 
   .embed {
     aspect-ratio: 16 / 9;
+  }
+}
+
+@media (max-width: 480px) {
+
+  section {
+    padding: 40px 20px;
+  }
+  .secondary {
+    padding: 30px;
+  }
+
+  header {
+    padding: 40px 10px;
+  }
+
+  .hero-nav {
+    top: 10px;
+    gap: 15px;
+    font-size: 14px;
+  }
+  .hero-nav a {
+    white-space: nowrap;
+  }
+
+  header h1 {
+    font-size: 38px;
+    margin: 20px 0;
+  }
+
+  header h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  header h3 {
+    font-size: 13px;
+    letter-spacing: 2px;
+  }
+
+  header .hero-button {
+    padding: 10px 10px;
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+
+  .grid-2-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-3-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-footer {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 24px;
+  }
+
+  
+
+  .card-responsive {
+    aspect-ratio: auto;
+  }
+
+  .card-body {
+    padding: 15px;
+  }
+
+
+  main h3 {
+    font-size: 28px;
+  }
+
+  main h4 {
+    font-size: 20px;
+  }
+
+  main p {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+
+  footer section {
+    padding: 20px;
+  }
+
+  footer h3 {
+    font-size: 18px;
+  }
+
+  footer p,
+  footer li {
+    font-size: 14px;
   }
 }
