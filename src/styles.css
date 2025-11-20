@@ -93,14 +93,20 @@ header a {
   font-size: 14px;
   line-height: 1.5;
   text-align: center;
-  color: #272044;
   padding: 16px 32px;
   margin-top: 32px;
   display: inline-block;
   letter-spacing: 3px;
   text-decoration: none;
   text-transform: uppercase;
-  background: white;
+color: #2d7d46;
+background-color: white;
+border-radius: 5px;
+}
+header a:hover {
+  background-color: #b8dcc4;
+  color: #2d7d46;
+  text-decoration: none;
 }
 
 main {
@@ -148,7 +154,8 @@ main p {
 
 .btn {
   display: block;
-  color: white;
+    color: white;
+    background-color: #2d7d46;
   font-weight: 700;
   font-size: 14px;
   line-height: 21px;
@@ -156,7 +163,11 @@ main p {
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 16px;
-  background-color: #462cb3;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #1c3e31;
+  color: white;
   text-decoration: none;
 }
 .img-responsive {
@@ -200,6 +211,10 @@ footer {
   background-size: cover;
 }
 
+footer section {
+    padding: 40px 80px 30px;
+}
+
 footer h3 {
   font-weight: 700;
   font-size: 20px;
@@ -225,6 +240,12 @@ footer li {
 footer a {
   color: white;
   text-decoration: none;
+  line-height: 1.5;
+}
+.footer-credit {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 14px;
 }
 
 @media (max-width: 900px) {
