@@ -99,9 +99,9 @@ header a {
   letter-spacing: 3px;
   text-decoration: none;
   text-transform: uppercase;
-color: #2d7d46;
-background-color: white;
-border-radius: 5px;
+  color: #2d7d46;
+  background-color: white;
+  border-radius: 5px;
 }
 header a:hover {
   background-color: #b8dcc4;
@@ -154,8 +154,8 @@ main p {
 
 .btn {
   display: block;
-    color: white;
-    background-color: #2d7d46;
+  color: white;
+  background-color: #2d7d46;
   font-weight: 700;
   font-size: 14px;
   line-height: 21px;
@@ -195,7 +195,8 @@ main p {
   gap: 30px;
 }
 
-.gallery img, .gallery .img-responsive {
+.gallery img,
+.gallery .img-responsive {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(45, 13, 91, 0.3);
 }
@@ -212,7 +213,7 @@ footer {
 }
 
 footer section {
-    padding: 40px 80px 30px;
+  padding: 40px 80px 30px;
 }
 
 footer h3 {
